@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #BA2D3E;
+    margin: 0;
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+input[type="password"],
+button {
+    margin-top: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
