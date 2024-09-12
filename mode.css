@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #BA2D3E;
+}
+
+.mode-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, p {
+    margin-top: 20px;
+}
+
+
+button {
+    margin-right: 60px;
+    margin-top: 40px;
+    width: 180px;
+    height: 60px;
+    border: 20px;
+    background-color: #591A15;
+    color: #FBEBD1;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+    button:hover {
+        background-color: #591A15;
+        opacity: 1;
+    }
